@@ -67,4 +67,45 @@ High-risk AI systems should comply with the following requirements:
 
 ## Classification of AI systems as High-Risk
 
+An AI system is classified as high-risk if it is a product or a component of a product placed on the market and used by third parties. When deciding whether an AI system may cause harm to the health, the following aspects should be considered:
+
+- the intended purpose of the system
+- if the system already caused harm to the health and safety of people and its extent
+- if the outcome of the system is easily reversible
+
+## Transparency obligations
+
+People should be informed about the fact that they are interacting with an AI system, unless it is obvious. This applies to emotion recognition systems and biometric categorization systems (unless authorized by the law), and when osserving output of deep fakes.
+
+## Obligations of providers of high-risk AI systems / Conformity assessment and standards
+
+Providers of high-risk AI systems shall:
+
+- have a quality management system in place
+- draw up the technical documentation
+- keep the logs automatically generated
+- ensure the AI system undergoes the relevant conformity assessment procedure
+- comply with the registration obligations
+- take the necessary corrective actions
+- inform the national competent authorities about the AI system
+- affix the CE marking to the AI system
+- demonstrate the conformity to the requirements
+
+## Obligations of users of high-risk AI systems
+
+Users of high-risk AI systems shall:
+
+- use the AI system in accordance with the instructions for use
+- monitor the AI system operation used in accordance with the instructions for use; if this use may cause harm to the health, the user shall inform the provider of the AI system about it, including incidents or malfunctions if any, and stop using the AI system
+- keep automatically generated logs
+
+## Regulatory sandboxes
+
+- AI regulatory sandboxes should provide a controlled environment that facilitate the development, testing and validation of AI systems before they are placed on the market. Here, the processing of personal data shall fall under the regulations.
+
+- Any significant risk shall be followed by an immediate mitigation, and if failing, the development and test shall be stopped.
+
+- Member States shall coordinate their activities in according with the framework of the European AI Board.
+
+## Critical issues
 
