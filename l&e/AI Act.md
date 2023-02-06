@@ -33,41 +33,41 @@ The AI Act is a risk-based approach to AI regulation. There are four different r
 
 ## Requirements for high-risk AI systems
 
-High-risk AI systems should comply with the following requirements:
+High-risk AI systems shall comply with the following requirements:
 
 - Risk management system:
     - an iterative process running throughout its entire lifecycle, consisting of identification and analysis of risks, estimation and evaluation of risks
-    - risk should be eliminated or reduced as much as possible, with mitigation measures in place if risks cannot be eliminated or reduced
-    - user should be trained to use the system safely, with technical knowledge about it
-    - testing should be performed
-    - specific consideration should be taken into account especially when children are supposed to use the system
+    - risk shall be eliminated or reduced as much as possible, with mitigation measures in place if risks cannot be eliminated or reduced
+    - user shall be trained to use the system safely, with technical knowledge about it
+    - testing shall be performed
+    - specific consideration shall be taken into account especially when children are supposed to use the system
 
 - Data and data governance:
-    - training, validation and testing data should managed correctly, especially speaking about relevant design, data preparation and assumptions, examinating possible biases and assuring representativeness and completeness of the data
+    - training, validation and testing data shall managed correctly, especially speaking about relevant design, data preparation and assumptions, examinating possible biases and assuring representativeness and completeness of the data
 
 - Technical documentation:
-    - documentation about the AI system should be created before it is placed in the market
+    - documentation about the AI system shall be created before it is placed in the market
 
 - Record keeping:
-    - the AI system should be able to keep records of its decisions and actions (including periods, databases, input data)
+    - the AI system shall be able to keep records of its decisions and actions (including periods, databases, input data)
 
 - Transparency and provision of information to users:
-    - AI systems operations should be transparent to users, enabling them to understand the system output and using it safely, eventually accompanied by the instructions for use provided by the manufacturer
-    - instructions should contain intended purpose of the system, level of accuracy, robustness and cybersecurity, any circumstances which may lead to risks, performance information, and eventual specification for input data
-    - human oversight and expected lifetime (with eventual maintenance and measures to ensure correct functioning) should be provided
+    - AI systems operations shall be transparent to users, enabling them to understand the system output and using it safely, eventually accompanied by the instructions for use provided by the manufacturer
+    - instructions shall contain intended purpose of the system, level of accuracy, robustness and cybersecurity, any circumstances which may lead to risks, performance information, and eventual specification for input data
+    - human oversight and expected lifetime (with eventual maintenance and measures to ensure correct functioning) shall be provided
 
 - Human oversight:
-    - appropriate human-machine interface tools should be provided to enable human oversight of the AI system, to prevent or minimize risks
-    - the humans responsible of oversigthing the AI system should fully understand the system and its limitations in order to monitor its operation, as well as being able to correctly interpret the system output, being able to override or reverse the system output when necessary, and being able to interrupt the system operation when necessary (with a "stop" button)
+    - appropriate human-machine interface tools shall be provided to enable human oversight of the AI system, to prevent or minimize risks
+    - the humans responsible of oversigthing the AI system shall fully understand the system and its limitations in order to monitor its operation, as well as being able to correctly interpret the system output, being able to override or reverse the system output when necessary, and being able to interrupt the system operation when necessary (with a "stop" button)
 
 - Accuracy, robustness and cybersecurity:
-    - Relevant accuracy measures should be provided
-    - Redundancy should be ensured to prevent error or inconsistencies
-    - Prevent unauthorized access by third parties to alter use or performance by exploiting vulnerabilities; also, data poisoning and adversarial examples should be prevented
+    - Relevant accuracy measures shall be provided
+    - Redundancy shall be ensured to prevent error or inconsistencies
+    - Prevent unauthorized access by third parties to alter use or performance by exploiting vulnerabilities; also, data poisoning and adversarial examples shall be prevented
 
 ## Classification of AI systems as High-Risk
 
-An AI system is classified as high-risk if it is a product or a component of a product placed on the market and used by third parties. When deciding whether an AI system may cause harm to the health, the following aspects should be considered:
+An AI system is classified as high-risk if it is a product or a component of a product placed on the market and used by third parties. When deciding whether an AI system may cause harm to the health, the following aspects shall be considered:
 
 - the intended purpose of the system
 - if the system already caused harm to the health and safety of people and its extent
@@ -75,7 +75,7 @@ An AI system is classified as high-risk if it is a product or a component of a p
 
 ## Transparency obligations
 
-People should be informed about the fact that they are interacting with an AI system, unless it is obvious. This applies to emotion recognition systems and biometric categorization systems (unless authorized by the law), and when osserving output of deep fakes.
+People shall be informed about the fact that they are interacting with an AI system, unless it is obvious. This applies to emotion recognition systems and biometric categorization systems (unless authorized by the law), and when osserving output of deep fakes.
 
 ## Obligations of providers of high-risk AI systems / Conformity assessment and standards
 
@@ -101,11 +101,12 @@ Users of high-risk AI systems shall:
 
 ## Regulatory sandboxes
 
-- AI regulatory sandboxes should provide a controlled environment that facilitate the development, testing and validation of AI systems before they are placed on the market. Here, the processing of personal data shall fall under the regulations.
+- AI regulatory sandboxes shall provide a controlled environment that facilitate the development, testing and validation of AI systems before they are placed on the market. Here, the processing of personal data shall fall under the regulations.
 
 - Any significant risk shall be followed by an immediate mitigation, and if failing, the development and test shall be stopped.
 
 - Member States shall coordinate their activities in according with the framework of the European AI Board.
 
 ## Critical issues
+
 
