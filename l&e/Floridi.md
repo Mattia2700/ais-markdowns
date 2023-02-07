@@ -24,6 +24,24 @@ AI shall be transparent, understandable and interpretable
 
 ## Opportunities and Risks for Society
 
+The AI surely will have an impact on our life, the questions are by whom, how, where, and when this positive or negative impact will be felt: positive or negative because we have to use it in the correct way, not underusing it or overusing/misusing it.
+
+### Who We Can Become: Enabling Human Self‐Realisation, Without Devaluing Human Abilities
+
+AI may enable self-realisation, the ability to flourish in different areas. The risk here is the pace at which the obsolete skills will be replaced by the new ones, maybe causing some inequality and costs for the society.
+
+### What We Can Do: Enhancing Human Agency, Without Removing Human Responsibility
+
+When using AI, we can do more, better, and faster, thanks to its capabilities. Here, we have to remember that our responsibility is essential, causing a risk when it is missing, maybe because of "black box" mentality, seeing the output of the AI beyond our understanding. If developed correctly, AI can improve and multiply our possibilities and strengthen our moral agency.
+
+### What We Can Achieve: Increasing Societal Capabilities, Without Reducing Human Control
+
+When combining our intelligence with the AI one, we can find new solution to already existing problems and not (deseases, logistics, etc.). The risk that comes from this is the fact that may not need to be "in or on the loop" anymore, delegating our decisions to the AI, even if we are supposed to have an oversight on it, causing a reduction of our capabilities to monitor the performance of the AI, accumulating the risks. We have to find a balance between the opportunities offered by AI and our control over it.
+
+### How We Can Interact: Cultivating Societal Cohesion, Without Eroding Human Self‐Determination
+
+AI can help us dealing with coordination complexity, supporting more societal cohesion and collaboration with a possible risk of eroding our self-determination, caused by unplanned changes in human behaviour to accommodate the routines that make automation work and people’s lives easier. 
+
 ## Dual Advantage of an Ethical Approach
 
 Compliance with the law is merely necessary but insufficient (playing according to the rules vs. playing well and winning). If we use an ethical approach, we can achieve a dual advantage: on one hand, you take advantage of the AI with the new opportunities it offers, and on the other hand, you anticipate, avoid or at least minimize costly risks (mitigation of risks). AI will be accepted by society if there are benefits and if the risks are minimized.
