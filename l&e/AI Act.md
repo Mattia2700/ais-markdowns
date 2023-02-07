@@ -10,7 +10,7 @@ The AI Act is a risk-based approach to AI regulation. There are four different r
 
 - Unacceptable risk (prohibited): like social scoring, facial recognition, dark-pattern AI or manipulation
 
-    - The application that violates fundamental rights by subliminal techniques, manipulation, social scoring or real-time remote biometric identification systems in public spaces
+    - The applications that violate fundamental rights by subliminal techniques, manipulation, social scoring or real-time remote biometric identification systems in public spaces
 
 - **High risk (conformity assessment): AI with application in education, employment, justice, immigration or law**
 
@@ -21,7 +21,7 @@ The AI Act is a risk-based approach to AI regulation. There are four different r
         - Educational and vocational training (e.g. automated scoring of exams)
         - Employment, workers management and access to self-employment (automated hiring or CV triage software)
         - Essential private and public services (e.g. automated welfare benefits systems)
-        - Law enforcement systems that may with people’s fundamental rights ('pre-crime' detection)
+        - Law enforcement systems that may interfere with people’s fundamental rights ('pre-crime' detection)
         -  Migration, asylum and border management (e.g.verification of authenticity of travel documents)
         - Administration of justice and democratic processes (e.g. automated sentencing assistance)
 
@@ -109,4 +109,29 @@ Users of high-risk AI systems shall:
 
 ## Critical issues
 
+The Raposo proposal for regulation of AI systems has several critical issues including:
 
+- Undefined decision-making for risk levels and unclear definition of when assessment and labeling should occur.
+- Lack of protection against manipulations such as Cambridge Analytica's and unclear proof of intent.
+- Social scoring ban only applies over a certain undefined period of time and excludes non-public authorities like credit cards and dating sites.
+- Facial recognition technology is only subject to some processing requirements, allowing real-time use by law enforcement.
+- Fear of privatized complaint industry due to self-assessment by industries.
+- Inadequate consideration of hardware in risk categorization.
+- Lack of acknowledgement of AI's potential impact on fundamental rights.
+- Loopholes in accountability, including lack of right to legal action and lack of AI personhood.
+- Limited transparency obligations, with limitations for systems authorized by law and intellectual property rights protection.
+- Few measures to promote innovation.
+
+The development of AI systems for academic purposes is subject to demanding requirements in the regulation.
+- Regulatory sandboxes have challenges, such as restriction to a few projects, unregulated nature leading to potential norm degradation, and difficulties in anticipating legal or ethical hazards.
+- Conflicts between norms are expected to be almost unavoidable due to overlaps between legal documents.
+- Conflicts between certain bodies and institutions may arise in the regulation of AI, which involves administrative, criminal, and civil matters.
+- There is uncertainty about the tasks performed by different notified bodies and the similarity of their assessments.
+- The reasoning for data protection does not entirely coincide with the reasoning for monitoring AI systems.
+- The Draft Act has preliminary concerns, such as:
+    - Glaring omissions in the treatment of liability for damages
+    - Difficulty in complying with everything due to high standards and utopian concepts
+    - Ambiguity in the definition of errors in data
+    - Lack of substantial boost for innovation
+    - Potential for Europe to be relegated to the tail end of the digital revolution
+- Only two measures in the Draft Act promote innovation and may limit AI investment in the EU.
