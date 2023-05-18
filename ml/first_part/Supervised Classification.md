@@ -34,7 +34,7 @@ $$ \hat\omega = \argmax_{\omega_i} P(\omega_i|x) = \argmax_{\omega_i} P(x|\omega
 
 The error can be espresed as:
 
-$P(error) = P(error|\omega_1)P(\omega_1) + P(error|\omega_2)P(\omega_2) = \int_{T}^{+\infin}{p(x|\omega_1)dx}P(\omega_1) + \int_{-\infin}^{T}{p(x|\omega_2)dx}P(\omega_2) = \int_{-\infin}^{+\infin}{p(x|\omega_1)dx}P(\omega_1) + \int_{-\infin}^{T}{p(x|\omega_2)P(\omega_2)dx} = \int_{-\infin}^{T}{p(x|\omega_2)P(\omega_2)} + \int_{T}^{+\infin}{p(x|\omega_1)P(\omega_1)}=\int_{-\infin}^{T}{P(\omega_2|x)p(x)} + \int_{T}^{+\infin}{P(\omega_1|x)p(x)}$
+$P(error) = P(error|\omega_1)P(\omega_1) + P(error|\omega_2)P(\omega_2) = \int_{T}^{+\infin}{p(x|\omega_1)dx}P(\omega_1) + \int_{-\infin}^{T}{p(x|\omega_2)dx}P(\omega_2) = \int_{T}^{+\infin}{p(x|\omega_1)P(\omega_1)dx} + \int_{-\infin}^{T}{p(x|\omega_2)P(\omega_2)dx} = \int_{-\infin}^{T}{p(x|\omega_2)P(\omega_2)} + \int_{T}^{+\infin}{p(x|\omega_1)P(\omega_1)}=\int_{-\infin}^{T}{P(\omega_2|x)p(x)} + \int_{T}^{+\infin}{P(\omega_1|x)p(x)}$
 
 or:
 
@@ -67,7 +67,7 @@ If the misclassification cost is symmetric, the $\lambda$ are semplified, and re
 
 This means the gerarchy of the criteria is: $ML \subset MAP \subset MRT$.
 
-## Disciminant Functions
+## Discriminant Functions
 
 Discriminants functions are score functions that split the feature space into $C$ decision regions, one for each class. The decision regions are defined by the score function, and the class is assigned to the region where the score is the highest.
 
@@ -115,14 +115,14 @@ In this case the discriminant function is:
 
 ![Alt text](assets/third_case.png)
 
-with an hyperquadric decision boundary (linear, lines, planes, parallel (crossing) planes, parabulas, hyperbolas, (nested) ellipsses.
+with an hyperquadric decision boundary (linear, lines, planes, parallel (crossing) planes, parabulas, hyperbolas, (nested) ellipsses).
 
 
 ## Decision Trees
 
 Usually the features are real-valued and there exists some notion of metric (it is possible to calculate the distance between two points), but it may happen that the features are categorical, nominal, discrete (e.g. the color of a car) and there is no metric: a sample is represented by a list of attributes. 
 
-In this case the classifier should be a rule-based one, constituted by a sequence of questions, construing a tree, a decision tree, where leaves are the classes, the other nodes are the queries and the links are the properties of the samples.
+In this case the classifier should be a rule-based one, constituted by a sequence of questions, constructing a tree, a decision tree, where leaves are the classes, the other nodes are the queries and the links are the properties of the samples.
 
 The adventages of using decision trees include interpretability, fast classification and easy incomporation of prior knowledge from human experts.
 
@@ -144,7 +144,7 @@ To prevent this, we need some stop-splitting criteria, that can be:
 
 - Impurity reduction threshold: a threshold is set, in order to stop when the **drop in impurity** is not as high as desired.
 
-- Complexity-accuracy tradeoff criterion: the tree will continue growing until a function involving the complexity of the tree (e.g. number of branches) and the impurities up to that poiny is minimized.
+- Complexity-accuracy tradeoff criterion: the tree will continue growing until a function involving the complexity of the tree (e.g. number of branches) or the impurities up to that point is minimized.
 
 - Hypothesis testing: the statistichal distribution of the impurity is computed and on each split it is tested that if that impurity drop is significant or not, and in that case I can stop.
 

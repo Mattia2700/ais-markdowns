@@ -58,10 +58,10 @@ When calculating the parameters using the training samples, we want our estimata
 
 If different training samples are used, the estimation error will be different, so we want to find a way to measure the goodness of the estimator, in order to find the best estimator: ideally, we want each estimation error $\epsilon_i$ to be unbiased and without variance.
 
-It is unbiased if if $\mathbb{E}[\epsilon_i]=0$, so $\mathbb{E}[\hat\theta_i]=\theta_i$ (the expected value of the estimator is equal to the true value of the parameter).
+It is unbiased if $\mathbb{E}[\epsilon_i]=0$, so $\mathbb{E}[\hat\theta_i]=\theta_i$ (the expected value of the estimator is equal to the true value of the parameter).
 
 The variance, describing how much the estimator varies from the true value, is the expected value of the squared error ($var(\epsilon_i)=\mathbb{E}[(\hat\theta_i-\theta_i)^2]$), and ideally we want it to be zero; in the reality, it is impossible to get at this point, so instead
-you try to reach a lower bound, called Cramer-Rao lower bound (CRLB), which express a lower bound on the variance of the estimator $\hat\theta_i$ (which should be unbiased). It makes use of the Fisher information, which computes the pickness of the likelihood function is (if the likelihood function is pick, the uncertainty on the parameters is low, and viceversa). When the CRLB is reached, the estimator is said to be efficient.
+you try to reach a lower bound, called Cramer-Rao lower bound (CRLB), which express a lower bound on the variance of the estimator $\hat\theta_i$ (which should be unbiased). It makes use of the Fisher information, which computes the pickness of the likelihood function (if the likelihood function is pick, the uncertainty on the parameters is low, and viceversa). When the CRLB is reached, the estimator is said to be efficient.
 
 In the reality is quite impossibile to obtain unbiased estimators, so, instead, we can try to collect as many data as possible, in order to reduce the variance of the estimator: in other words, the estimator is good if it is (asympotically) unbiased, (asympotically) efficient and consistent (iif asymptotically unbiased and variance converges to zero) when the number of training samples tends to infinity.
 
@@ -73,7 +73,7 @@ The ML estimator is asymptotically unbiased and efficient, and also consistent.
 
 ## Statistical Model Selection
 
-Before a signal reaches the sensor, it is affected by the propagation medium, which introduces noise in the signal. The sensor itself also introduces noise, and the pre-processing and feature extraction steps can also introduce noise. Basiccaly, before classyfing the signal, we have to decide which statistical model to use to describe the data ($p(x|\theta)$).
+Before a signal reaches the sensor, it is affected by the propagation medium, which introduces noise in the signal. The sensor itself also introduces noise, and the pre-processing and feature extraction steps can also introduce noise. Basically, before classyfing the signal, we have to decide which statistical model to use to describe the data ($p(x|\theta)$).
 
 We have:
 - \[Generalized\] Gaussian model
@@ -117,7 +117,7 @@ In the case of the poisson distribution, the ML estimator is the sample mean, wh
 
 Here, the parameters $\theta_i$ are random variables with a known prior distribution, and thanks to the training data, we are able to update the distribution on these variables into a posterior probability density.
 
-We know the density ($p(x|\theta)$), but we don't know $\theta$. The initial knowledge about $\theta$ is represented by a prior density $p(\theta)$, because the model is parametric and we knwo the distribution. The rest of the knowledge is contained in the training data $X$ distributed according to the unknown density $p(x)$. 
+We know the density ($p(x|\theta)$), but we don't know $\theta$. The initial knowledge about $\theta$ is represented by a prior density $p(\theta)$, because the model is parametric and we know the distribution. The rest of the knowledge is contained in the training data $X$ distributed according to the unknown density $p(x)$. 
 
 So, normally we would define $\hat\theta=\argmax_\theta{p(\theta)}$ where $\theta$ represents the parameters that maximize the know distribution $p(\theta)$, but it does not mean that the parameters that maximize the prior distribution are the best parameters for the model; this is the reason we also make use of the collection of training samples $X$, in order to update $\hat\theta$ to $\hat\theta=\argmax_\theta{p(\theta|X)}$, because we want to find the best parameters knowing the observed data $X$. When the number of training samples tends to infinity, the posterior distribution will converge to an impulse, removing the uncertainty and leaving only the best parameters.
 
@@ -137,7 +137,7 @@ $p(\theta|X) = \frac{p(\theta,X)}{p(X)} = \frac{p(X|\theta) p(\theta)}{p(X)}$
 
 where $p(X)$ is the marginal likelihood (like the numerator, but integrating over all possible values of $\theta$), $p(X|\theta)$ is the likelihood function ($\prod_{i=1}^N p(x_i|\theta)$), and $p(\theta)$ is the prior distribution.
 
-We know the model, you know the prior distribution, you have the training samples, so you can compute the posterior distribution.
+You know the model, you know the prior distribution, you have the training samples, so you can compute the posterior distribution.
 
 In the case of a univariate Gaussian distribution, the mean you are looking for is a trade-off between the actual mean of the training samples and the prior mean, each weighted by the corresponding variance.
 
