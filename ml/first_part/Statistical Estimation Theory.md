@@ -131,6 +131,8 @@ $\hat p(x|X) = \int p(x|\theta) p(\theta|X) d\theta$
 
 In other words, what we are doing are summing up all the models, but this sum is a weighted sum, where the weights are the posterior probabilities $p(\theta|X)$, so the closer the model is to the training samples, the higher the weight.
 
+If the number of training samples tends to infinity, the posterior will be picker up to a Dirac delta function.
+
 Using marginalization, we can rewrite $p(\theta|X)$ as:
 
 $p(\theta|X) = \frac{p(\theta,X)}{p(X)} = \frac{p(X|\theta) p(\theta)}{p(X)}$
